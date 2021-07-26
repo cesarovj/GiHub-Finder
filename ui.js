@@ -34,7 +34,8 @@ class UI {
     // Show user repos
     showRepos(repos) {
         let output = '';
-
+        
+        // Display of repos
         repos.forEach(function(repo) {
             output += `
                 <div class="card card-body mb-2>
